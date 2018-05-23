@@ -198,11 +198,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #414a4c, #3b444b), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #414a4c, #3b444b), url(../img/boxing_photos/sixth.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #353839, #0e1111), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #353839, #0e1111), url(../img/boxing_photos/seventh.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #353839, #232b2b), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #353839, #232b2b), url(../img/boxing_photos/eight.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
