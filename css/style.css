@@ -69,7 +69,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #EE82EE, #551A8B);
+  background-image: linear-gradient(to right, #353839, #0e1111);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px; }
@@ -141,15 +141,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #EE82EE;
+  color: #353839;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #EE82EE;
+  border-bottom: 1px solid #353839;
   padding: 3px;
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #EE82EE;
+  background-color: #353839;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
@@ -180,11 +180,11 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #414a4c, #3b444b); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #EE82EE, #551A8B); }
+        background-image: linear-gradient(to right bottom, #353839, #0e1111); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #353839, #232b2b); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -198,11 +198,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #414a4c, #3b444b), url(../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #EE82EE, #551A8B), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #353839, #0e1111), url(../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #353839, #232b2b), url(../img/nat-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -218,11 +218,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(65, 74, 76, 0.85), rgba(59, 68, 75, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(238, 130, 238, 0.85), rgba(85, 26, 139, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(53, 56, 57, 0.85), rgba(14, 17, 17, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(53, 56, 57, 0.85), rgba(35, 43, 43, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -301,7 +301,7 @@ body {
       left: 20%;
       top: 10rem; }
     .composition__photo:hover {
-      outline: 1.5rem solid #EE82EE;
+      outline: 1.5rem solid #353839;
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
@@ -320,7 +320,7 @@ body {
     font-size: 5rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #EE82EE, #551A8B);
+    background-image: linear-gradient(to right, #353839, #0e1111);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 2px; }
@@ -355,7 +355,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(238, 130, 238, 0.4), rgba(85, 26, 139, 0.4)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(53, 56, 57, 0.4), rgba(14, 17, 17, 0.4)), url(../img/boxing_photos/first.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -380,7 +380,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(238, 130, 238, 0.2), rgba(85, 26, 139, 0.2)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(53, 56, 57, 0.2), rgba(14, 17, 17, 0.2)), url(../img/boxing_photos/second.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
